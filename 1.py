@@ -7,8 +7,6 @@
 Какова сложность вашего алгоритма?
 '''
 
-#import time
-#start = time.time()
 def task(array, desire_val='0'):
     first = 0
     last = len(array)-1
@@ -24,6 +22,4 @@ def task(array, desire_val='0'):
                 first = mid +1
     return index
 
-print(task("111111111111111111111111100000000"))
-#finish = time.time()
-#print("elapsed time: ", finish-start)
+# Сложность алгоритма: O(log n)
